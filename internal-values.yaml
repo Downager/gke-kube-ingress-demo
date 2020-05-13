@@ -1,0 +1,5 @@
+controller:
+  ingressClass: nginx-internal
+  service:
+    annotations:
+      cloud.google.com/load-balancer-type: "Internal"
